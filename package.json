@@ -1,0 +1,13 @@
+{
+  "name": "dev",
+  "version": "1.0.0",
+  "description": "``` tar --exclude  \".git\" --exclude \".DS_Store\" -cvzf ../UICube.tar.gz * ``` ## ver4: 2020.2?",
+  "main": "index.js",
+  "scripts": {
+    "install": "composer create-project ec-cube/ec-cube ec-cube \"4.0.x-dev\" --keep-vcs",
+    "server": "cd ec-cube && bin/console server:run",
+    "plugin:zip": "cd BlockInstaller && tar --exclude  \".git\" --exclude \".DS_Store\" -cvzf ../BlockInstaller.tar.gz *"
+  },
+  "author": "",
+  "license": "ISC"
+}

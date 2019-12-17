@@ -1,0 +1,12 @@
+# flash messages
+block_installer.admin.config.save.complete: 登録しました。
+
+# config
+block_installer.admin.config.title: ブロックインストーラー
+block_installer.admin.config.config_title: 設定
+block_installer.admin.config.conversion.save: 登録
+block_installer.admin.config.conversion.back: プラグイン一覧
+
+block_installer.admin.config.label_block_name: ブロック名
+block_installer.admin.config.label_file_name: ファイル名
+block_installer.admin.config.label_block_type: ブロックタイプ
